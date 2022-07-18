@@ -1,0 +1,30 @@
+.functions-list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.function {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  margin-bottom: 40px;
+}
+
+
+.function span {
+  width: 80px;
+  text-align: center;
+}
+
+.function-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+}

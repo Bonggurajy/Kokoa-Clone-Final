@@ -5,12 +5,15 @@
 @import 'component/screen-header.css';
 @import 'component/user-component.css';
 @import 'component/nav-bar.css';
+@import 'component/functions-list.css';
+@import 'component/divide-bar.css';
 
 
 /*screens*/
 @import 'screen/login.css';
 @import 'screen/friends.css';
 @import 'screen/chats.css';
+@import 'screen/find.css';
 
 .position-relative {
   position: relative;

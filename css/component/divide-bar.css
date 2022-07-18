@@ -1,0 +1,13 @@
+.divide-bar {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.divide-bar .divide-bar__column-right {
+  color: rgba(0, 0, 0, 0.3);
+}
