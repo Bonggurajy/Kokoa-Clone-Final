@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>friends</title>
+  <title>Chats</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -29,11 +29,12 @@
     <header>
       <div class="screen-header__wrapper">
         <div class="screen-header__column">
-          <span>Friends</span>
+          <span>Chats</span>
         </div>
         <div class="screen-header__column">
           <div class="screen-header__btns-wrapper">
             <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            <i class="fa-regular fa-comment-dots fa-xl"></i>
             <i class="fa-solid fa-music fa-xl"></i>
             <i class="fa-solid fa-gear fa-xl"></i>
           </div>
@@ -42,43 +43,44 @@
 
     </header>
 
-    <main class="friends-main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img class="user-component__photo photo--big" src="screenshots/IMG_0014.JPG" />
-        </div>
-        <div class="user-component__column">
-          <span>Mandoo</span>
-        </div>
-      </div>
-
-      <div class="divide-bar">
-        <span>Channel</span>
-        <i class="fa-solid fa-angle-up"></i>
-      </div>
-
-      <div class="user-component">
-        <div class="user-component__column">
-          <img class="user-component__photo photo--small"
-            src="https://play-lh.googleusercontent.com/cf3DwPLbS8Z55sDvUSTQ6PL1goPdm8KbZ81g4TEUAaeUh5LDhkzdjxKQ2RX6BGpv0x4" />
-        </div>
-        <div class="user-component__column">
-          <span>Channel</span>
-        </div>
-        <div class="user-component__column">
-          <div class="column__wrapper">
-            <span>2</span>
-            <i class="fa-solid fa-angle-right"></i>
+    <main class="chats-main-screen">
+      <a href="chat-mandoo.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__photo photo--big" src="screenshots/mandoo.JPG" />
+          </div>
+          <div class="user-component__column">
+            <span>Mandoo</span>
+            <span>Hello bro! please give me food or something! I'm so starving ㅠㅠ</span>
+          </div>
+          <div class="user-component__column">
+            <span>18:22</span>
+            <span>1</span>
           </div>
         </div>
-
+      </a>
+      <a href="chat-santa.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__photo photo--big" src="screenshots/santa.jpg" />
+          </div>
+          <div class="user-component__column">
+            <span>Santa</span>
+            <span>Hey bro! it's time for dinner! </span>
+          </div>
+          <div class="user-component__column">
+            <span>18:23</span>
+            <span>1</span>
+          </div>
+        </div>
+      </a>
     </main>
 
   </section>
   <nav class="nav-bar">
-    <div class="friends-icon"><a href="friends.html"><i class="fa-solid fa-user fa-2xl"></i></a></div>
+    <div class="friends-icon"><a href="friends.html"><i class="fa-regular fa-user fa-2xl"></i></a></div>
     <div class="chats-icon position-relative">
-      <a href="chats.html"><i class="fa-regular fa-comment fa-2xl"></i></a>
+      <a href="chats.html"><i class="fa-solid fa-comment fa-2xl"></i></a>
       <span class="notification">1</span>
     </div>
     <div class="find-icon"><a href="find.html"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></a></div>
@@ -87,12 +89,6 @@
       <span class="notification notification--empty"></span>
     </div>
   </nav>
-
-  <div class="friends-name-display">
-    <i class="fa-solid fa-circle-info"></i>
-    <span>Friends' Names Display</span>
-    <i class="fa-solid fa-angle-right fa-sm"></i>
-  </div>
 
   <script src="https://kit.fontawesome.com/460bbcdc82.js" crossorigin="anonymous"></script>
 </body>
