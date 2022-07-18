@@ -1,0 +1,28 @@
+.setting-list {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-menu {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.settings-menu__column:nth-child(1) {
+  margin-right: 15px;
+  width: 10%;
+}
+
+.settings-menu__column:nth-child(2) {
+  font-size: 21px;
+  width: 45%;
+}
+
+.settings-menu__column:nth-child(3) {
+  font-size: 21px;
+  opacity: 0.4;
+  width: 45%;
+  text-align: end;
+}
