@@ -8,7 +8,7 @@
 @import 'component/functions-list.css';
 @import 'component/divide-bar.css';
 @import 'component/alt-screen-header.css';
-
+@import "component/only-mobile.css";
 
 /*screens*/
 @import 'screen/login.css';
