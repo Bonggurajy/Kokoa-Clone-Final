@@ -1,0 +1,14 @@
+@import 'reset.css';
+
+/*components*/
+@import 'component/status-bar.css';
+
+
+/*screens*/
+@import 'screen/login.css';
+
+
+body {
+  width: 100vw;
+  height: 200vh;
+}
