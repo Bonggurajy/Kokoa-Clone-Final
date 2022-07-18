@@ -20,8 +20,11 @@
   font-size: 21px;
 }
 
-.user-component__column:nth-child(2) span:last-child {
+.user-component__column:nth-child(2) {
   font-size: 16px;
+}
+
+.message-preview {
   opacity: 0.5;
 }
 

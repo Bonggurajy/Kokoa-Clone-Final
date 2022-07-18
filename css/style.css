@@ -17,14 +17,10 @@
 @import 'screen/find.css';
 @import 'screen/more.css';
 @import 'screen/settings.css';
+@import 'screen/chat.css';
 
 .position-relative {
   position: relative;
-}
-
-body {
-  width: 100vw;
-  height: 200vh;
 }
 
 header {
