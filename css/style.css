@@ -2,13 +2,27 @@
 
 /*components*/
 @import 'component/status-bar.css';
+@import 'component/screen-header.css';
 
 
 /*screens*/
 @import 'screen/login.css';
+@import 'screen/friends.css';
 
 
 body {
   width: 100vw;
   height: 200vh;
+}
+
+header {
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+
+.screen-wrapper {
+  box-sizing: border-box;
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
 }

@@ -1,0 +1,8 @@
+.friends-name-display {
+  background-color: rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 10px 0px;
+  position: absolute;
+  width: 100%;
+  top: 120px;
+}
