@@ -25,6 +25,10 @@
   opacity: 0.5;
 }
 
+.user-component__column:nth-child(2) span:last-child i {
+  color: red;
+}
+
 .user-component__column:nth-child(3) {
   display: flex;
   width: 10%;
